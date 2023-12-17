@@ -1,0 +1,88 @@
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat w/Malfoy -Hogwarts Talk</title>
+</head>
+
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span> No Service </span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:42</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fa-solid fa-battery-full"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="chats.html">
+        <i class="fa-solid fa-angle-left fa-2x"></i>
+      </a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">Malfoy</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      <span><i class="fa-solid fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">Tuesday, June 30, 1997</div>
+    <div class="message-row">
+      <img src="photo/Tom Felton Finger.jpg" />
+      <div class="message-row__content">
+        <span class="message__author">Malfoy</span>
+        <div class="message__info">
+          <span class="message__bubble"
+            >그린핀도르는 절대 슬리데린 못 이김</span
+          >
+          <span class="message__time">12:00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row message-row--own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class="message__bubble">올해는 그리핀도르가 이길 듯^^</span>
+          <span class="message__time">15:00</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fa-regular fa-square-plus fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a Message..." />
+      <i class="fa-regular fa-face-smile fa-lg"></i>
+      <button>
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <span
+      >화면이 너무 커요... '모바일 사용' 혹은 '화면 줄이기' 마법을 써주세요!
+      (1학년은 마법수업에서 배울 예정)</span
+    >
+  </div>
+
+  <script
+    src="https://kit.fontawesome.com/4bbc2bfc7a.js"
+    crossorigin="anonymous"
+  ></script>
+</body>

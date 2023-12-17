@@ -1,0 +1,13 @@
+.badge{
+    background-color: rgb(170, 61, 42);
+    width:30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+/*badge를 각종 notification에 class 추가해주기!*/

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends-Hogwarts Talk</title>
+  </head>
+
+  <body class="style">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span> No Service </span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:42</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link"
+      ><i class="fa-solid fa-circle-info"></i> 친구 이름을 입력하세요.(모든
+      기숙사 가능)
+      <i class="fa-solid fa-chevron-right fa-sma"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="photo/harry potter_title.jpg"/ class="user-component__avatar
+          user-component__avatar--xl">
+          <div class="user-component__text">
+            <h4 class="user-component__title">Harry Potter</h4>
+            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="photo/baby ron.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title--not-bold">Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>3</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn nav-chosen">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-hat-wizard fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fa fa-dove fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-broom fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav--dot__noti"></span>
+            <i class="fa-solid fa-wand-sparkles fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fa-solid fa-hat-wizard fa-2x"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span
+        >화면이 너무 커요... '모바일 사용' 혹은 '화면 줄이기' 마법을 써주세요!
+        (1학년은 마법수업에서 배울 예정)</span
+      >
+    </div>
+    <script
+      src="https://kit.fontawesome.com/4bbc2bfc7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

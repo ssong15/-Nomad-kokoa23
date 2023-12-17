@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to HogwartTlak</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span> No Service </span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:42</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome--header">
+      <h1 class="welcome--header_title">입학을 환영합니다!</h1>
+      <p class="welcome--header_text">
+        호그와트에 입학하신 걸 환영합니다! 아래 이름과 비밀번호를 입력해주세요.
+        (비밀번호는 기숙사 배정 후 지급됩니다!)
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder=" Name" />
+      <input name="password" type="password" placeholder=" Password" />
+      <input type="submit" value="Log in" />
+      <a href="#">
+        비밀번호를 까먹은 경우 기숙사 반장 혹은 맥고나걸 교수님께 문의주세요.</a
+      >
+    </form>
+
+    <div id="no-mobile">
+      <span
+        >화면이 너무 커요... '모바일 사용' 혹은 '화면 줄이기' 마법을 써주세요!
+        (1학년은 마법수업에서 배울 예정)</span
+      >
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/4bbc2bfc7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
