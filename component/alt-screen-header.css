@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.alt-header--chat {
+  padding: 25px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .alt-header__column {
   width: 33%;
 }
@@ -30,8 +38,4 @@
 
 .alt-header__column span:last-child {
   margin-left: 20px;
-}
-
-.alt-header--chat {
-  padding: -20px;
 }
